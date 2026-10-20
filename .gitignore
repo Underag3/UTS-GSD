@@ -4,10 +4,10 @@ venv/
 env/
 .env
 
-# Data files & Datasets
-data/
-*.csv
-*.tsv
+# Raw and very large datasets (>50MB)
+data/events.csv
+data/events_filtered_2periods.csv
+data/events_P2_test.csv
 *.zip
 *.tar.gz
 *.parquet

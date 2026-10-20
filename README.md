@@ -19,10 +19,13 @@ Sesuai dengan ketentuan perhitungan berdasarkan 3 digit terakhir NIM:
 
 ```text
 UTS-GSD/
-├── uts-gsd.ipynb       # Jupyter Notebook utama berisi pipeline analisis lengkap & visualisasi
-├── requirements.txt    # Dependensi library Python yang dibutuhkan
-├── .gitignore          # Konfigurasi pengecualian file (data besar & venv)
-└── README.md           # Dokumentasi proyek
+├── data/
+│   └── events_P1_train.csv  # Dataset hasil filter periode P1 (Training)
+├── screenshots/             # Bukti tangkapan layar eksekusi kueri di Neo4j Browser
+├── uts-gsd.ipynb            # Jupyter Notebook utama berisi pipeline analisis lengkap & visualisasi
+├── requirements.txt         # Dependensi library Python yang dibutuhkan
+├── .gitignore               # Konfigurasi pengecualian file
+└── README.md                # Dokumentasi proyek
 ```
 
 ---
