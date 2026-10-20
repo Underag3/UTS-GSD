@@ -1,0 +1,25 @@
+# Virtual Environment
+myvenv/
+venv/
+env/
+.env
+
+# Data files & Datasets
+data/
+*.csv
+*.tsv
+*.zip
+*.tar.gz
+*.parquet
+
+# Python cache & Jupyter checkpoints
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# OS & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
